@@ -1,164 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Discover Amazing places in Japan</title>
-  <link rel="stylesheet" href="./CSS/reset.css">
-  <link rel="stylesheet" href="./CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="js/form.js"></script>
 </head>
 <body>
-  <header class="header"> 
-        <div class="wrapper">
-            <div class="header__wrapper">
-              
-     <div class="header__logo">
-      <a href="/" class="header__logo-link">
-       <img src="./img/svg/odigo-Logo.svg" alt="Discover Amazing places in Japan" class="header__logo-pic">
-      </a>
-    </div>
-
-<nav> <div class="header__nav"></div> 
-
-             <ul class="header__list">
-<li class="header__item">
-  <a href="#!" class="header__link">Articles</a>
-</li>
-<li class="header__item">
-  <a href="#!" class="header__link">Locations</a>
-</li>
-<li class="header__item">
-  <a href="#!" class="header__link">Videos</a>
-</li>
-<li class="header__item">
-  <a href="#!" class="header__link">Sign in</a>
-</li>
-            </ul>
-</nav>
-            </div>
-
-        </div>
-  </header>
-  <main class="main">
-    
- <section class="intro">
-  <div class="wrapper">
-    <h1 class="intro__title">
-      Discover Amazing places in Japan
-
-    </h1>
-    <p class="intro__subtitle">
-      Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, 
-    </p>
-    <form  class="search-form">
-      <fieldset class="search-form__wrap">
-        <p class="search-form__info">
-          <input type="text"name="user-like-to-do" class="search-form__field" placeholder="What would you like to do?">
-          <input type="text" name="user-like-to-go"class="search-form__field" placeholder="Where would you like to go?">
-          <button type="submit" class="search-form__submit">search </button>
-        </p>
-
-      </fieldset>
-    </form>
-  </div>
- </section>
- 
- <section class="places">
-  <div class="wrapper-full">
-    <div class="places__caption">
-      <h2 class="places__title section-title">
-        Get inspired for your next trip
-      </h2>
-      <a href="#!" class="places__view-all">VIEW ALL</a>
-    </div>
-    
-   <div class="places__cards">
-    <figure class="places__card ">
-      <img src="./img/Image.jpg" alt="Mount Fuji" class="pic">
-      <figcaption class="places__card-title">
-        Mount Fuji
-      </figcaption>
-    </figure>
-    <figure class="places__card ">
-      <img src="./img/2.jpg" alt="Kyoto" class="pic">
-      <figcaption class="places__card-title">
-        Kyoto
-      </figcaption>
-    </figure>
-    <figure class="places__card ">
-      <img src="./img/Image (1).jpg" alt="Tokyo" class="pic">
-      <figcaption class="places__card-title">
-        Tokyo
-      </figcaption>
-    </figure>
-    <figure class="places__card ">
-      <img src="./img/Image (2).jpg" alt="Niigata" class="pic">
-      <figcaption class="places__card-title">
-        Niigata
-      </figcaption>
-    </figure>
    
+        
 
-   </div>
-  </div>
- </section>
- 
-  <div class="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EOhoYO0SIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
- 
-   <div class="nyz">
-    <div class="bukvy"><a href="#"><img src="./img/svg/odigo-Logo.svg" alt="logo" />
-    </a></div>
-    <ul class="nyz__list">
-      <li class="nyz__item">
-        <a href="#!" class="nyz__link">Company</a>
-      </li>
-      <li class="nyz__item">
-        <a href="#!" class="nyz__link">About </a>
-      </li>
-      <li class="nyz__item">
-        <a href="#!" class="nyz__link">Team</a>
-      </li>
-      <li class="nyz__item">
-        <a href="#!" class="nyz__link">Privacy Policy</a>
-      </li>
-                  </ul>
-                  <ul class="nyz__list">
-                    <li class="nyz__item">
-                      <a href="#!" class="nyz__link">Locations</a>
-                    </li>
-                    <li class="nyz__item">
-                      <a href="#!" class="nyz__link">Tokyo </a>
-                    </li>
-                    <li class="nyz__item">
-                      <a href="#!" class="nyz__link">Kyoto</a>
-                    </li>
-                    <li class="nyz__item">
-                      <a href="#!" class="nyz__link">Hokkaido</a>
-                    </li>
-                                </ul>
-                              </ul>
-                              <ul class="nyz__list">
-                                <li class="nyz__item">
-                                  <a href="#!" class="nyz__link">Social Media</a>
-                                </li>
-                                <li class="nyz__item">
-                                  <a href="#!" class="nyz__link">Instagram </a>
-                                </li>
-                                <li class="nyz__item">
-                                  <a href="#!" class="nyz__link">Facebook</a>
-                                </li>
-                                <li class="nyz__item">
-                                  <a href="#!" class="nyz__link">Twitter</a>
-                                </li>
-                                            </ul>
-      </div>
+<form name="Form" onsubmit="return validateForm()" >
+    <h2>Registration Form</h2>
+    <div class="box">
+        <label>Full Name</label>
+        <input type="text" name="name" id="name">
+        <div class="error" id="nameErr"></div>
     </div>
-   </div>
-  </div>
- 
-  </main>
+    <div class="box">
+        <label>Email Address</label>
+        <input type="text" name="email" id="email">
+        <div class="error" id="emailErr"></div>
+    </div>
+    <div class="box">
+        <label for="psw">Password</label>
+         <input type="password" id="psw" name="psw">
+         <i class="bi bi-eye-slash" id="togglePassword"></i>
+        <div class="error" id="passwordErr"></div>
+    </div>
+    <div class="box">
+        <label>Mobile Number</label>
+        <input type="text" name="mobile" maxlength="10" id="mobile">
+        <div class="error" id="mobileErr"></div>
+    </div>
+    <div class="box">
+        <label>Country</label>
+        <select name="country" id="country">
+            <option>Select</option>
+            <option>Ukraine</option>
+            <option>India</option>
+            <option>America</option>
+            <option>UK</option>
+            <option>Denmark</option>
+            <option>Spain</option>
+        </select> 
+        <div class="error" id="countryErr"></div>
+    </div>
+    <div class="box">
+        <label>Gender</label>
+        <div class="form-inline" id="gender">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label> 
+        </div>
+        <div class="error" id="genderErr"></div>
+    </div>
+          
+    <div class="box">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+
+<script>
+        const togglePassword = document.querySelector("#togglePassword");
+        const password = document.querySelector("#psw");
+
+        togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+            
+            // toggle the icon
+            this.classList.toggle("bi-eye");
+        });
+</script>
+
 </body>
 </html>
